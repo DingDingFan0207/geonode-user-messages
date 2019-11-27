@@ -10,6 +10,12 @@
 # if __name__ == "__main__":
 #     execute_manager(settings)
 
+#*****************************************************************************************************************
+# The following changes were made to resolve the ImportError caused by execute_manager
+# excute manager was deprecated and then deleted in Django 1.6
+# The changes made are compatible with Django 1.11
+# Original codes are commented out above.
+#*****************************************************************************************************************
 
 import os
 import sys
